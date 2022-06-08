@@ -1,0 +1,22 @@
+uuid: ad8dbcd5-43f2-40e4-a55a-7ba532460c02
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: producto_por_defecto
+label: 'producto por defecto'
+type: 'canonical_entities:commerce_product'
+pattern: 'producto/[commerce_product:title]'
+selection_criteria:
+  aba808fa-2b60-488d-a1c7-1cfc1631250e:
+    id: 'entity_bundle:commerce_product'
+    negate: false
+    uuid: aba808fa-2b60-488d-a1c7-1cfc1631250e
+    context_mapping:
+      commerce_product: commerce_product
+    bundles:
+      default: default
+selection_logic: and
+weight: -5
+relationships: {  }

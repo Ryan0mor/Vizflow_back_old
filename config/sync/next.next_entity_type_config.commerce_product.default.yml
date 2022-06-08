@@ -1,0 +1,9 @@
+uuid: 1321c523-016b-4448-a7cc-39fbb31d9d7a
+langcode: en
+status: true
+dependencies: {  }
+id: commerce_product.default
+site_resolver: site_selector
+configuration:
+  sites:
+    tienda: tienda

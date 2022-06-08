@@ -1,0 +1,14 @@
+uuid: 85ab73fd-e87f-40b6-950c-7e1977d13ad8
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.next_role
+  module:
+    - user
+id: user_add_role_action.next_role
+label: 'Add the next_role role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: next_role

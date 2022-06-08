@@ -1,0 +1,14 @@
+uuid: e3d8fe49-1d24-40bf-b771-fd8a79432e68
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: YdbP1K1t12OGgnPz3AsvZ6xoXuFbWSuy3npzg1pVSJI
+id: _
+configuration:
+  mailer_default_headers: {  }
+  mailer_url_to_absolute: {  }
+  mailer_html_to_text: {  }
+  mailer_inline_css: {  }
+  email_theme:
+    theme: _active_fallback

@@ -1,0 +1,9 @@
+uuid: 868b2ac2-cf47-4f26-af83-aa5334e7f8b7
+langcode: en
+status: true
+dependencies: {  }
+id: tienda
+label: Tienda
+base_url: /test
+preview_url: /test/preview
+preview_secret: preview-secret-here

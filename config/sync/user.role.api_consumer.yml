@@ -1,0 +1,9 @@
+uuid: 58d7b193-80b6-4fa2-8058-76494b412129
+langcode: en
+status: true
+dependencies: {  }
+id: api_consumer
+label: 'Api consumer'
+weight: 4
+is_admin: null
+permissions: {  }

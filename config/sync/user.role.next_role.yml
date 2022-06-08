@@ -1,0 +1,15 @@
+uuid: 27f6390d-e927-4634-a3bc-e5caf796d15d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - subrequests
+id: next_role
+label: next_role
+weight: 3
+is_admin: null
+permissions:
+  - 'access user profiles'
+  - 'bypass node access'
+  - 'issue subrequests'
